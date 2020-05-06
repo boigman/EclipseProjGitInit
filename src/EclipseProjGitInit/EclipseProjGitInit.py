@@ -22,7 +22,7 @@ print (repoPath+ "\\Readme.md created")
 for cmd in gitcmds:
     print('Executing: '+cmd.replace('$PROJNAME$',projName))
     os.system(cmd.replace('$PROJNAME$',projName))
-print (repoPath+ "finished")
+print (repoPath+ " finished")
 
     
     
